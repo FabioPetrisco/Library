@@ -1,0 +1,53 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: white;
+}
+
+.landing-page {
+    max-width: 1500px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+#home-image {
+    border-radius: 30px;
+    min-width: 290px;
+    width: 60%;
+    height: 100%;
+    margin: 10px;
+}
+
+#image-text-div {
+    width: 30%;
+    min-width: 290px;
+    margin: 10px;
+}
+
+#image-text-div h1 {
+    color: #272559;
+}
+
+#image-text-div a {
+    display: inline-block;
+    background-color: #F28E13;
+    border: 1px solid #F28E13;
+    border-radius: 15px;
+    color: white;
+    font-size: 1.5em;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+#image-text-div a:hover {
+    background-color: #272559;
+    border: 1px solid #272559;
+}

@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.barra_di_ricerca{
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+}
+.login_carrello{
+    display: flex;
+    flex-direction: row;
+    margin: 4%;
+    position: relative;
+    left: 40%;
+    font-size: 110%;
+}
+.carrello{
+    margin-left: 50%;
+    font-size: 110%;
+}
